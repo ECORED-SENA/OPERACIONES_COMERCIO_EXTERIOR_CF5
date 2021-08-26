@@ -1,0 +1,135 @@
+.fond-1
+  background-color: #EBF6FF !important
+.fond-2
+  background-color: #F6F6F6 !important
+.fond-3
+  background-color: #F6E6F9 !important
+.fnd-1
+  background-image: url(../assets/tema1/fnd-1.svg)
+  margin-inline: -3rem 
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible   
+@media (max-width: 990px) 
+  .fnd-2
+    background-image: url('../assets/tema1/fnd-5.png') !important  
+    background-size: 100% 300px !important
+.fnd-2
+  background-image: url(../assets/tema1/fnd-5-.png)
+  margin-inline: -3rem 
+  background-repeat: no-repeat
+  background-position: top center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible    
+.fnd-3
+  background: linear-gradient(to bottom, #7C55C1, #7C55C1)
+.mbbb
+  margin-bottom: 3rem  
+.ww  
+  color: #ffffff !important
+.img-c1 // centrar imagenes
+  justify-content: center!important
+  margin: 0 auto
+.img-250
+  width: 250px !important     
+.img-350
+  width: 350px !important   
+.sep
+  border-top: 0.4em solid #36A3F7 !important
+  background-image: url(../assets/tema1/fnd-3.png)
+  margin-inline:  
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible   
+.sep2
+  border-top: 0.4em solid #36A3F7 !important
+  background-image: url(../assets/tema1/fnd-4.png)
+  margin-inline:  
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible    
+.sep4
+  border-radius: 30px
+  background-color: #CEE9FD 
+.sep5
+  border-bottom: 0.3em dashed #36A3F7 !important  
+.ii
+  color: #F739A8 !important 
+.tabs-a__tab 
+    background-color: #E8E8E8 
+.lista-ul--color li > i:first-of-type 
+    color: $color-secundario !important   
+.bloq:before
+    background-color: #D5EDFF !important
+.bloque-texto-d 
+    border-top: 1px solid #F739A8 !important  
+.tort
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: 50%
+  background-size: cover
+
+// anclas
+$anchorBtn_number_cl: #2BFCDF  
+.anchorHeader 
+  position: relative
+  //padding: 1rem 1rem 1rem 3rem  
+  //background-color: #f10f0f
+  //margin-bottom: 2rem 
+  &__number    
+    position: absolute
+    top: -15px
+    left: -15px
+    display: inline-block
+    padding: 0.7rem 1rem
+    background-color: $anchorBtn_number_cl
+    &::before 
+      content: ""
+      position: absolute
+      top: 50.5px
+      left: 1px
+      width: 0
+      height: 0 
+      border-left: 15px solid transparent    
+      border-top: 15px solid lighten($anchorBtn_number_cl, 30%)
+    
+    h3 
+      margin-bottom: 0 !important
+      color: white
+      font-weight: 700
+      font-size: 20pt     
+
+  &__body 
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    p 
+      margin-bottom: 0 !important
+      font-size: 14pt !important
+      font-weight: 600
+    
+    .anchorHeader__btn    
+      a 
+        display: inline-block
+        padding: 0.6rem 1rem 
+        border-radius: 10px      
+        color: black
+        text-align: center  
+        font-weight: 700
+        background-color: $anchorBtn_number_cl
+        transition: all 0.25s ease-in-out
+        &:hover 
+          background-color: lighten($anchorBtn_number_cl, 30%)
+$anchorBtn_color: #EDF2F9
+$anchorBtn_number_cl: #2BFCDF
