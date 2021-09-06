@@ -122,13 +122,13 @@ export default {
     },
     {
       referencia:
-        'Villegas, M. (2019). Incoterms 2010, qué son y para qué sirven. Logisber.',
+        'Villegas, M. (2019).<em> Incoterms 2010, qué son y para qué sirven.</em> Logisber.',
       link: 'https://logisber.com/blog/incoterms-2010',
     },
   ],
   glosario: [
     {
-      termino: 'Arancel <em>ad valorem</em>',
+      termino: 'Arancel ad valorem',
       significado:
         'Es un derecho que se paga por importaciones. Su valor puede ser porcentual y está identificado en el arancel de aduanas.',
     },
@@ -175,6 +175,12 @@ export default {
         '1.4 Términos de negociación. Los INCOTERMS y la CDFI. Tecnológico Nacional de México. (s. f.). <em>Evolución del Comercio Internacional.</em>',
       tipo: 'Gráfico',
       descarga: 'https://es.calameo.com/read/00507077164b6eb1b3771',
+    },
+    {
+      texto:
+        '1.4 Términos de negociación. Los INCOTERMS y la CDFI. Villegas, M. (2019). <em>Incoterms 2010, qué son y para qué sirven.</em> Logisber',
+      tipo: 'Artículo web',
+      descarga: 'https://logisber.com/blog/incoterms-2010',
     },
   ],
   creditos: {
@@ -233,6 +239,47 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Jorge Leonardo Camacho Pardo',
         cargo: 'Desarrollo Front-End',
         centro:
@@ -245,7 +292,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah Gamboa',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

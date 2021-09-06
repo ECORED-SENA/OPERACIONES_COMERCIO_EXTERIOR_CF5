@@ -48,7 +48,7 @@
         .row.mx-5.mt-5
           .col-xl-6
             h5 Impulso de corredores logísticos y zonas francas
-            p El plan de desarrollo del gobierno nacional para el período 2010 – 2014, denominado “Prosperidad para todos”, y el denominado “Todos por un nuevo país”, para el período 2014 – 2018, por primera vez definen en la agenda de gobierno una ruta para el desarrollo logístico en Colombia. 
+            p El plan de desarrollo del Gobierno Nacional para el período 2010 – 2014, denominado “Prosperidad para todos”, y el denominado “Todos por un nuevo país”, para el período 2014 – 2018, por primera vez definen en la agenda de gobierno una ruta para el desarrollo logístico en Colombia. 
             p Las estrategias planteadas corresponden a la consolidación del Sistema Logístico Nacional (SLN), a través de la institucionalidad, la infraestructura logística especializada, servicios logísticos de valor agregado y facilitación del comercio exterior.
             p El SLN materializa la revolución de la infraestructura en el desempeño competitivo de la economía colombiana.
           .col-xl-6.mb-4
@@ -135,7 +135,7 @@
               p.mb-0 Los servicios conexos, afines y complementarios al transporte supervisado. 
             li.mb-2
               i.fas.fa-check
-              p.mb-0 Las empresas o sociedades de construcción, administradoras y/o operadoras de los anteriores servicios. 
+              p.mb-0 Las empresas o sociedades de construcción, administradoras y/u operadoras de los anteriores servicios. 
 
     separador
     #t_1_2.titulo-segundo
@@ -152,31 +152,28 @@
       .col-lg-5.px-5
         p Una cadena de suministros consta de tres partes: el suministro, la fabricación y la distribución. La parte del #[strong suministro] se concentra en cómo, dónde y cuándo se consiguen y suministran las materias primas para fabricación. La #[strong fabricación] convierte estas materias primas en productos terminados. Y la #[strong distribución] se asegura de que dichos productos finales lleguen al consumidor a través de una red de distribuidores, almacenes y comercios minoristas. Se dice que la cadena comienza con los proveedores de tus proveedores y termina con los clientes de tus clientes.
       .col-lg-7.px-5
+        p.text-bold.mb-0.text-small Figura 1
+        p <em>Cadena de abastecimiento</em>
+
         figure
           img(src='@/assets/tema1/img-11.svg')
     separador
     #t_1_3.titulo-segundo
       h2 1.3 Cadenas de suministro 
-    p.mb-5 El éxito del desarrollo de una cadena de abastecimiento o suministro se basa en la correcta planificación de la misma, en el control que se ejerza sobre ella y, finalmente, es medida por el nivel de satisfacción del cliente. Estos procesos cada día se ven más favorecidos por la utilización de equipos tecnológicos y software especializado, el cual, a través de códigos de barra, entre otros, permite el rastreo de la carga, el manejo de inventarios, la oportunidad de las compras y la disponibilidad de las materias primas y los insumos que se requieran en el proceso productivo. Hay que recordar siempre que la calidad de estas cadenas se mide es por la satisfacción del cliente.
-      .row.img-c1.fnd-1.mb-5.justify-content-around.align-items-center 
+    p.mb-5 El éxito del desarrollo de una cadena de abastecimiento o suministro se basa en la correcta planificación de la misma, en el control que se ejerza sobre ella y, finalmente, es medida por el nivel de satisfacción del cliente. Estos procesos cada día se ven más favorecidos por la utilización de equipos tecnológicos y <em>software</em> especializado, el cual, a través de códigos de barra, entre otros, permite el rastreo de la carga, el manejo de inventarios, la oportunidad de las compras y la disponibilidad de las materias primas y los insumos que se requieran en el proceso productivo. Hay que recordar siempre que la calidad de estas cadenas se mide es por la satisfacción del cliente.
+      .row.img-c1.mb-5.justify-content-around.align-items-center 
         .col-md-10
           .cajon.color-primario.p-4.mb-4.fond-3.mb-5
             p Para las operaciones de comercio internacional, estas cadenas se hacen más complejas, los tiempos de entrega más largos y la exposición de la carga a los riesgos del proceso es mucho mayor, pero su adecuada planificación y la utilización de las nuevas tecnologías permiten, incluso a través de Internet, el seguimiento y control, fase a fase, de cada uno de estos componentes de la cadena de abastecimiento o suministro.
-          h5.mb-5 Procesos de las cadenas de suministros
-          .row
-            .col-4.mbbb
-              figure.mb-5
-                img(src='@/assets/tema1/img-12.svg')
-              p.ww.mb-5.text-center.mx-4 Los procesos se refieren a las actividades que se realizan por parte de los miembros dentro de la cadena
-              
-            .col-4
-              figure.mb-5
-                img(src='@/assets/tema1/img-13.svg')
-              p.ww.mb-5.text-center.mx-4 Los componentes se refieren a la integración y el manejo que debe existir entre los procesos.              
-            .col-4
-              figure.mb-5
-                img(src='@/assets/tema1/img-14.svg')                            
-              p.ww.mb-5.text-center.mx-4 La estructura se refiere a los miembros con los que existe una unión entre procesos.
+          p.text-bold.mb-0.text-small Figura 2
+          p.mb-5 <em> Procesos de las cadenas de suministros</em>
+
+
+      .row.img-c1.mb-5.justify-content-around.align-items-center 
+        .col-md-11      
+          figure.mb-5
+            img(src='@/assets/tema1/img-12-.svg')
+        
         br
         br
         br
@@ -204,7 +201,7 @@
                     i.fas.fa-file-download
         .row.d-flex.mb-5
           .col.sep.d-flex.m-4
-            p.m-3 #[strong INCOTERMS] es un término que proviene de “International commercial terms”, que, traducido al español, quiere decir “Términos de Comercio Internacional”, y, como lo indica su propio nombre, son los términos y requisitos de una operación de compraventa internacional. Por esta razón, son ellos los encargados de estipular cuándo y dónde se produce la transmisión de los riesgos y la obligación en cuanto a los costes, así como determinar quién corre a cargo de ellos y otros factores en relación con este tipo de transacciones.
+            p.m-3 #[strong INCOTERMS] es un término que proviene de <em>“International commercial terms”,</em> que, traducido al español, quiere decir “Términos de Comercio Internacional”, y, como lo indica su propio nombre, son los términos y requisitos de una operación de compraventa internacional. Por esta razón, son ellos los encargados de estipular cuándo y dónde se produce la transmisión de los riesgos y la obligación en cuanto a los costes, así como determinar quién corre a cargo de ellos y otros factores en relación con este tipo de transacciones.
             
           .col.sep2.d-flex.m-4
             p.m-3 Los INCOTERMS son un factor muy relevante e imprescindible en el comercio internacional. Todos los agentes involucrados en cualquier relación comercial internacional tienen amplios conocimientos e información sobre ellos, su gestión y aplicación; y para ello, es necesario estar atento a todas las actualizaciones que van sufriendo cada cierto tiempo. Dentro de la CDFI, su función es la de ofrecer, registrar y liquidar un determinado concepto, definiendo responsabilidades económicas y transferencia de riesgos entre los exportadores y los importadores. 
@@ -212,15 +209,15 @@
     .row.img-c1.mb-5.justify-content-around.align-items-center 
       .col-md-10
         .cajon.color-acento-contenido.p-4.mb-4
-          p Al pasar el tiempo estipulado, se renuevan y mejoran, permitiendo un mejor uso de ellos. Siempre van acompañados de un número que va a indicar el año de actualización de ese término en concreto; es decir, se tiene “FCA 2012”, que significa que el término “Free Carrier” fue actualizado en el año 2012. Ahora bien, si en el 2020, con la nueva actualización, el término FCA se ha mantenido, pero con algunos cambios, al ver “FCA 2020”, se sabrá que pertenece a la versión 2020, con algunas modificaciones.
+          p Al pasar el tiempo estipulado, se renuevan y mejoran, permitiendo un mejor uso de ellos. Siempre van acompañados de un número que va a indicar el año de actualización de ese término en concreto; es decir, se tiene “FCA 2012”, que significa que el término <em>“Free Carrier”</em> fue actualizado en el año 2012. Ahora bien, si en el 2020, con la nueva actualización, el término FCA se ha mantenido, pero con algunos cambios, al ver “FCA 2020”, se sabrá que pertenece a la versión 2020, con algunas modificaciones.
 
     p.mb-5 Desde el 1 de enero de 2020, las importaciones y exportaciones se regulan mediante los nuevos INCOTERMS 2020, dejando atrás algunos de los antiguos e introduciendo nuevas actualizaciones.
 
-    p.mb-5 Fueron creados por la Cámara de Comercio Internacional (ICC o International Chamber of Commerce, en inglés), en el año 1936, existen desde hace varios y han sido de gran ayuda, a través de las distintas actualizaciones que han tenido lugar, en su mayor parte, en el comercio marítimo, para el que son una ventaja fundamental, en cuanto a las condiciones y negociación de las partes en el transporte internacional de mercancías. Actualmente, la versión utilizada es la de 2020, distribuida en cuatro categorías, que son:
+    p.mb-5 Fueron creados por la Cámara de Comercio Internacional <em>(ICC o International Chamber of Commerce,</em> en inglés), en el año 1936, existen desde hace varios y han sido de gran ayuda, a través de las distintas actualizaciones que han tenido lugar, en su mayor parte, en el comercio marítimo, para el que son una ventaja fundamental, en cuanto a las condiciones y negociación de las partes en el transporte internacional de mercancías. Actualmente, la versión utilizada es la de 2020, distribuida en cuatro categorías, que son:
     .row.justify-content-around.align-items-center
       .col-10 
         .row.align-self-center
-          .col-4.align-self-center
+          .col-lg-4.align-self-center
            ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -239,7 +236,7 @@
                 span d
               | Grupo D. DAP, DPU Y DDP.
 
-          .col-8    
+          .col-lg-8    
             figure.mb-5
               img(src='@/assets/tema1/img-17.svg')
               
@@ -247,7 +244,7 @@
     .row.justify-content-around.align-items-center.mb-5
       .col-10 
         figure.mb-5
-              img(src='@/assets/tema1/img-18.svg')
+              img(src='@/assets/tema1/img-18-.svg')
     .row.justify-content-around.align-items-center
       .col-10 
         .tarjeta.fnd-3.p-3.mb-5
@@ -264,19 +261,24 @@
                     span Descargar
                     i.fas.fa-file-download  
 
-    p Los términos FAS, FOB, CFR y CIF son exclusivos para el transporte marítimo, los demás, para todo modo de transporte. 
-    p.mb-5En la siguiente figura se aprecia con claridad el momento en el que se hace la transferencia del riesgo y la responsabilidad sobre la carga:
+    p Los términos <em>FAS, FOB, CFR y CIF</em> son exclusivos para el transporte marítimo, los demás, para todo modo de transporte. 
+    p.mb-5 En la siguiente figura se aprecia con claridad el momento en el que se hace la transferencia del riesgo y la responsabilidad sobre la carga:
+
+
     .row.justify-content-around.align-items-center
       .col-10 
+        p.text-bold.mb-0.text-small Figura 3
+        p.mb-5 <em> Transferencia del riesgo y la responsabilidad sobre la carga</em>
         figure.mb-5
-              img(src='@/assets/tema1/img-19.png')
+          img(src='@/assets/tema1/img-19.png')
+          figcaption Tomada de https://cdn.tibagroup.com/wp-content/uploads/2020/01/Incoterms_2020_v6.jpg
     separador
     #t_1_5.titulo-segundo
       h2 1.5 Relación entre los términos de negociación y la CDFI    
     .row.d-flex
-      .col.d-flex.m-4
+      .col-md-6.d-flex.p-4
         p.mb-5 La relación que se da entre la Cadena de Distribución Física Internacional (CDFI) y los INCOTERMS es directa. En la CDFI, se indica cuáles son todos los conceptos en los que se debe incurrir para poder desarrollar la operación de comercio internacional, pero no define los responsables de cada uno de ellos; además, la matriz puede variar según la naturaleza de la carga y las condiciones pactadas por las partes. Por otro lado, los INCOTERMS definen claramente quién es el responsable de cada egreso en la cadena y en qué momento el vendedor le transfiere responsabilidades al comprador, en caso de siniestro. Es por ello que, durante un hipotético siniestro, en el cual un barco se hunda en altamar, solo basta con identificar en el contrato de compraventa internacional cuál es el INCOTERM pactado, y allí se clarifica quién reclama ante la compañía de seguros o quién es el responsable en el proceso.
-      .col.d-flex.m-4
+      .col-md-6.d-flex.p-4
         figure.mb-5
               img(src='@/assets/tema1/img-20.png')
 
@@ -284,12 +286,12 @@
     #t_1_6.titulo-segundo
       h2 1.6 Identificación de las operaciones cambiarias del proceso de comercio exterior
     .row.justify-content-around.align-items-center.mb-5.fnd-2
-      .col-11
+      .col-lg-11
         #base.row
-          .col-4
+          .col-lg-4.img-c1
             figure
               img.img-350.my-5(src='@/assets/tema1/img-21.png')
-          .col-8.align-self-center.px-5
+          .col-lg-8.align-self-center.px-5
             p.ww Una operación cambiaria hace referencia a aquellas actividades que involucran la conversión de una moneda en una segunda; por ejemplo, de dólares a pesos. En Colombia, se tienen identificadas y amparadas una serie de operaciones cambiarias, como son:
           .col-md-8.col-sm-12.img-c1
             .row.img-c1
@@ -309,7 +311,8 @@
                 a(href="#4")
                   figure.mb-5(data-aos="zoom-in") 
                     img(src='@/assets/tema1/img-25.svg')       
-      
+    .row.justify-content-around.align-items-center.mb-5
+      .col-lg-11      
         #1.row.p-5
           .anchorHeader
             .anchorHeader__body.justify-content-end
@@ -323,7 +326,7 @@
                     img.img-250(src='@/assets/tema1/img-26.svg')
               .col-8
                 h5 Inversiones extranjeras pasivas o activas
-                p La inversiones extranjeras en el territorio colombiano pueden hacerse de manera directa o indirecta. La inversión directa corresponde a los aportes de capital que cumplen con los siguientes dos requisitos:
+                p Las inversiones extranjeras en el territorio colombiano pueden hacerse de manera directa o indirecta. La inversión directa corresponde a los aportes de capital que cumplen con los siguientes dos requisitos:
                 .ul.lista-ul--color.p-3
                   li.mb-2
                     i.fas.fa-check
@@ -356,7 +359,7 @@
             .row.img-c1.mb-5.justify-content-around.align-items-center 
               .col-md-10
                 .cajon.color-acento-contenido.p-4.mb-4
-                  p A marzo de 2021, el saldo de la deuda externa de Colombia alcanzó US$153.628 millones (m) (50,8% del PIB 1 ), con caída de US$977m (0,6%) respecto a diciembre de 2020.
+                  p A marzo de 2021, el saldo de la deuda externa de Colombia alcanzó US$153.628 millones (m) (50,8% del PIB 1), con caída de US$977m (0,6%) respecto a diciembre de 2020.
                   p El 86% de este saldo corresponde a créditos con vencimiento original mayor a un año y el 14% a créditos con vencimiento igual o menor a un año. Por tipo de instrumento, el saldo de la deuda externa corresponde principalmente a  préstamos y a títulos de deuda.
         #3.row.p-5
           .anchorHeader
