@@ -2,6 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
@@ -9,6 +10,7 @@
 
     p La logística, entendida como una actividad de orden empresarial, es antigua en su ejecución. Anteriormente, se le conocía como distribución. Sus orígenes se remontan a la actividad militar, donde, con el fin de abastecer a las tropas que debían estar en situación de guerra por largo tiempo en territorios despoblados, se buscaba ofrecerles los recursos y suministros necesarios para afrontar esta estadía. Posteriormente, hace alrededor de 50 años, en el ámbito empresarial se tomó este mismo modelo, convirtiéndose en el mayor campo de desarrollo de la logística.
     separador
+
     #t_1_1.titulo-segundo
       h2 1.1 La logística colombiana y su impacto en el comercio exterior
     .row.mb-5
@@ -18,7 +20,7 @@
 
       .col-lg-5.px-5
         figure
-          img(src="@/assets/tema1/img-1.svg", )
+          img(src="@/assets/tema1/img-1.svg", style="width:450px;").m-auto
 
     TabsA.color-primario.mb-5
       
@@ -54,7 +56,7 @@
           .col-xl-6.mb-4
             figure
               img(src='@/assets/tema1/img-4.png')
-            figcaption Fuente: t.ly/DucO
+            
       .tarjeta.fond-1.p-4(titulo="Fortalecimiento")
         .row.mt-5.mx-5.justify-content-around.align-items-center
           h5 Fortalecimiento del Ministerio de Transporte
@@ -62,7 +64,7 @@
           .col-lg-8
             figure
               img(src='@/assets/tema1/img-5.png')
-            figcaption Fuente: t.ly/UjGq
+            
           .ul.lista-ul--color.p-3
             li.mb-2
               i.fas.fa-check
@@ -94,7 +96,7 @@
           .col-xl-8.mb-4
             figure
               img(src='@/assets/tema1/img-6.png')
-            figcaption Fuente: t.ly/kMKt
+            
       .tarjeta.fond-1.p-4(titulo="Dragado")
         .row.mx-5.mt-5
           .col-xl-6
@@ -141,20 +143,18 @@
     #t_1_2.titulo-segundo
       h2 1.2 Cadenas de abastecimiento
     .row.mb-5
-      .col-lg-5
+      .col-lg-5.mb-5.mb-lg-0
         figure
-          img(src='@/assets/tema1/img-10.svg')
+          img(src='@/assets/tema1/img-10.svg', style="width:450px;").m-auto
       .col-lg-7.px-5
         p Las cadenas de abastecimiento o suministro son aquellas redes estructuradas a nivel de las actividades que se encuentran relacionadas con la transformación de un bien, entre las instalaciones empresariales y los medios de distribución de la carga; es decir, desde la materia prima hasta el consumidor final. Su esencia administrativa se centra en la obtención de materias primas o de productos terminados, que tienen como destino la transformación, el ensamble o la comercialización al por mayor, al detal o al consumidor. Muchas veces, se tiene entre manos un producto listo para su uso o consumo, y se olvida que ha pasado por un proceso específico para que sea posible disfrutarlo. Este proceso es a lo que se denomina cadena de abastecimiento.
         p En una cadena de abastecimiento va a estar presente la logística, ya que tiene como objetivo abastecer los materiales necesarios en cantidad necesaria, calidad y tiempo requeridos, al costo más bajo posible, lo cual será traducido en mejor servicio al cliente. Cada eslabón de la cadena de abastecimiento hace que la cadena sea tan fuerte como cada uno de los eslabones o tan débil como el más débil de los mismos; es por ello que las empresas deben estructurar sus cadenas de abastecimiento teniendo como base las necesidades de la empresa y realizar alianzas y selección de proveedores acordes con sus capacidades.
 
     .row.fond-2.align-self-center.justify-content-around.align-items-center.py-3.mb-5
-      .col-lg-5.px-5
+      .col-lg-12.p-5
         p Una cadena de suministros consta de tres partes: el suministro, la fabricación y la distribución. La parte del #[strong suministro] se concentra en cómo, dónde y cuándo se consiguen y suministran las materias primas para fabricación. La #[strong fabricación] convierte estas materias primas en productos terminados. Y la #[strong distribución] se asegura de que dichos productos finales lleguen al consumidor a través de una red de distribuidores, almacenes y comercios minoristas. Se dice que la cadena comienza con los proveedores de tus proveedores y termina con los clientes de tus clientes.
-      .col-lg-7.px-5
-        p.text-bold.mb-0.text-small Figura 1
-        p <em>Cadena de abastecimiento</em>
-
+      .col-auto.mb-5.px-5       
+        h4.mb-5.text-center Cadena de abastecimiento
         figure
           img(src='@/assets/tema1/img-11.svg')
     separador
@@ -164,19 +164,15 @@
       .row.img-c1.mb-5.justify-content-around.align-items-center 
         .col-md-10
           .cajon.color-primario.p-4.mb-4.fond-3.mb-5
-            p Para las operaciones de comercio internacional, estas cadenas se hacen más complejas, los tiempos de entrega más largos y la exposición de la carga a los riesgos del proceso es mucho mayor, pero su adecuada planificación y la utilización de las nuevas tecnologías permiten, incluso a través de Internet, el seguimiento y control, fase a fase, de cada uno de estos componentes de la cadena de abastecimiento o suministro.
-          p.text-bold.mb-0.text-small Figura 2
-          p.mb-5 <em> Procesos de las cadenas de suministros</em>
+            p Para las operaciones de comercio internacional, estas cadenas se hacen más complejas, los tiempos de entrega más largos y la exposición de la carga a los riesgos del proceso es mucho mayor, pero su adecuada planificación y la utilización de las nuevas tecnologías permiten, incluso a través de Internet, el seguimiento y control, fase a fase, de cada uno de estos componentes de la cadena de abastecimiento o suministro.           
+          h4.text-center.mb-3 <em> Procesos de las cadenas de suministros</em>
 
 
-      .row.img-c1.mb-5.justify-content-around.align-items-center 
+      .row.mb-5.justify-content-around.align-items-center 
         .col-md-11      
-          figure.mb-5
-            img(src='@/assets/tema1/img-12-.svg')
-        
-        br
-        br
-        br
+          figure
+            img(src='@/assets/tema1/img-12-.svg')        
+       
     separador
     #t_1_4.titulo-segundo
       h2 1.4 Términos de negociación. Los INCOTERMS y la CDFI
@@ -185,7 +181,7 @@
       img(src='@/assets/tema1/img-15.png')
     p.mb-5 Históricamente, el comercio ha presentado una clara evolución a nivel de intercambio comercial internacional, pero, en el pasado, no se tenían reglas claras que permitieran asignar obligaciones y responsabilidades sobre aquellas mercancías que estaban siendo sometidas a procesos de importación y exportación, y claro, frente a un siniestro, siempre se generaba conflicto de responsabilidades, tratando de armonizar y delegar responsabilidades a la contra parte, pero sin ningún soporte legal. Es por ello que, para armonizar estos litigios internacionales, la Cámara de Comercio Internacional (CCI) creó, en el año de 1936, un conjunto de reglas denominadas INCOTERMS, o términos de negociación del comercio internacional. En un comienzo, solo un total de 13 países se acogieron a estas reglas, pero, con el pasar de los años y la adaptación de estas reglas a las condiciones del mercado, ya más países se han integrado de forma voluntaria a aceptar estas reglas y aplicarlas en cada uno de los contratos de compraventa internacional.
     .row.justify-content-around.align-items-center
-      .col-10 
+      .col-lg-10 
         .tarjeta.fnd-3.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -197,14 +193,15 @@
                   p.text-small.ww  Le invitamos a consultar el siguiente enlace, referente a la evolución y desarrollo del comercio internacional: 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://es.calameo.com/read/00507077164b6eb1b3771')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                    span Ver
+                    i.fas.fa-link
         .row.d-flex.mb-5
-          .col.sep.d-flex.m-4
+          .col-lg.sep.d-flex.m-4            
             p.m-3 #[strong INCOTERMS] es un término que proviene de <em>“International commercial terms”,</em> que, traducido al español, quiere decir “Términos de Comercio Internacional”, y, como lo indica su propio nombre, son los términos y requisitos de una operación de compraventa internacional. Por esta razón, son ellos los encargados de estipular cuándo y dónde se produce la transmisión de los riesgos y la obligación en cuanto a los costes, así como determinar quién corre a cargo de ellos y otros factores en relación con este tipo de transacciones.
             
-          .col.sep2.d-flex.m-4
+          .col-lg.sep2.d-flex.m-4
             p.m-3 Los INCOTERMS son un factor muy relevante e imprescindible en el comercio internacional. Todos los agentes involucrados en cualquier relación comercial internacional tienen amplios conocimientos e información sobre ellos, su gestión y aplicación; y para ello, es necesario estar atento a todas las actualizaciones que van sufriendo cada cierto tiempo. Dentro de la CDFI, su función es la de ofrecer, registrar y liquidar un determinado concepto, definiendo responsabilidades económicas y transferencia de riesgos entre los exportadores y los importadores. 
+
     p.mb-5 Estos términos (INCOTERMS) no son siempre los mismos ni se mantienen estables, sino que cada cierto tiempo (por lo general cada 10 años) se actualizan, dejando así atrás términos que ya no se usan debido a que tienen condiciones poco aceptadas o sin vigencia en el mercado actual. 
     .row.img-c1.mb-5.justify-content-around.align-items-center 
       .col-md-10
@@ -242,11 +239,11 @@
               
     p.mb-5 Las categorías correspondientes a INCOTERMS para el año 2020 se encuentran descritas a continuación:          
     .row.justify-content-around.align-items-center.mb-5
-      .col-10 
+      .col-lg-10 
         figure.mb-5
-              img(src='@/assets/tema1/img-18-.svg')
+          img(src='@/assets/tema1/img-18-.svg')
     .row.justify-content-around.align-items-center
-      .col-10 
+      .col-lg-10 
         .tarjeta.fnd-3.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -258,18 +255,17 @@
                   p.text-small.ww  Se invita a consultar el siguiente enlace, referente a los INCOTERMS 2010. Aunque se trata de una presentación anterior a las actualizaciones 2020, será de ayuda para la comprensión del tema: 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://es.slideshare.net/sarasacristan/los-incoterms-2010')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download  
+                    span ver
+                    i.fas.fa-link  
 
     p Los términos <em>FAS, FOB, CFR y CIF</em> son exclusivos para el transporte marítimo, los demás, para todo modo de transporte. 
     p.mb-5 En la siguiente figura se aprecia con claridad el momento en el que se hace la transferencia del riesgo y la responsabilidad sobre la carga:
 
 
     .row.justify-content-around.align-items-center
-      .col-10 
-        p.text-bold.mb-0.text-small Figura 3
-        p.mb-5 <em> Transferencia del riesgo y la responsabilidad sobre la carga</em>
-        figure.mb-5
+      .col-12       
+        h3.text-center.mb-2 Transferencia del riesgo y la responsabilidad sobre la carga
+        figure
           img(src='@/assets/tema1/img-19.png')
           figcaption Tomada de https://cdn.tibagroup.com/wp-content/uploads/2020/01/Incoterms_2020_v6.jpg
     separador
@@ -290,24 +286,24 @@
         #base.row
           .col-lg-4.img-c1
             figure
-              img.img-350.my-5(src='@/assets/tema1/img-21.png')
-          .col-lg-8.align-self-center.px-5
+              img.img-350.my-5(src='@/assets/tema1/img-21.png').m-auto
+          .col-lg-8.align-self-center.px-5.mb-4
             p.ww Una operación cambiaria hace referencia a aquellas actividades que involucran la conversión de una moneda en una segunda; por ejemplo, de dólares a pesos. En Colombia, se tienen identificadas y amparadas una serie de operaciones cambiarias, como son:
-          .col-md-8.col-sm-12.img-c1
-            .row.img-c1
-              .col
+          .col-md-12
+            .row.justify-content-center
+              .col-auto
                 a(href="#1")
                   figure.mb-5(data-aos="zoom-in") 
                     img(src='@/assets/tema1/img-22.svg')          
-              .col
+              .col-auto
                 a(href="#2")
                   figure.mb-5(data-aos="zoom-in") 
                     img(src='@/assets/tema1/img-23.svg')  
-              .col
+              .col-auto
                 a(href="#3")
                   figure.mb-5(data-aos="zoom-in") 
                     img(src='@/assets/tema1/img-24.svg')  
-              .col
+              .col-auto
                 a(href="#4")
                   figure.mb-5(data-aos="zoom-in") 
                     img(src='@/assets/tema1/img-25.svg')       
@@ -321,10 +317,10 @@
                   .fas.fa-chevron-up
           .row.sep5
             .row
-              .col-4
+              .col-lg-4
                 figure.mb-5(data-aos="") 
-                    img.img-250(src='@/assets/tema1/img-26.svg')
-              .col-8
+                    img.img-250(src='@/assets/tema1/img-26.svg').m-auto
+              .col-lg-8
                 h5 Inversiones extranjeras pasivas o activas
                 p Las inversiones extranjeras en el territorio colombiano pueden hacerse de manera directa o indirecta. La inversión directa corresponde a los aportes de capital que cumplen con los siguientes dos requisitos:
                 .ul.lista-ul--color.p-3
@@ -337,10 +333,10 @@
                 p La inversión directa es una categoría dentro de la balanza de pagos y puede ser de dos formas:
             .row.d-flex.mb-5
               .col.sep4.d-flex.m-4
-                p.p-5 Inversión extranjera directa en Colombia (IED): es la inversión directa realizada por inversionistas residentes en el exterior en empresas residentes en Colombia. También se denomina inversión directa pasiva.
+                p.p-5 #[strong Inversión extranjera directa en Colombia (IED):] es la inversión directa realizada por inversionistas residentes en el exterior en empresas residentes en Colombia. También se denomina inversión directa pasiva.
 
               .col.sep4.d-flex.m-4
-                p.p-5 Inversión directa de Colombia en el exterior (IBCE): es la inversión directa realizada por inversionistas residentes en Colombia en empresas residentes en el exterior. También se denomina inversión directa activa. 
+                p.p-5 #[strong Inversión directa de Colombia en el exterior (IBCE):] es la inversión directa realizada por inversionistas residentes en Colombia en empresas residentes en el exterior. También se denomina inversión directa activa. 
         #2.row.p-5
           .anchorHeader
             .anchorHeader__body.justify-content-end
@@ -349,18 +345,17 @@
                   .fas.fa-chevron-up
           .row.sep5 
             .row
-              .col-4
+              .col-lg-4
                 figure.mb-5(data-aos="") 
-                    img.img-250(src='@/assets/tema1/img-27.svg')
-              .col-8
+                    img.img-250(src='@/assets/tema1/img-27.svg').m-auto
+              .col-lg-8
                 h5 Endeudamiento externo
                 p Se entiende por deuda externa bruta el monto, en un determinado momento, de los pasivos contractuales desembolsados y pendientes de reintegro que asumen los residentes de un país frente a no residentes, con el compromiso de realizar en el futuro los pagos del principal (capital), los intereses o ambos. La estadística de deuda externa incluye el financiamiento obtenido bajo las modalidades de préstamos bancarios, créditos comerciales (de proveedores), títulos de deuda (bonos) y arrendamiento financiero, y no incluye los pasivos por concepto de inversiones de portafolio en Colombia.
-                p.mb-5 En general, las estadísticas de deuda externa siguen las pautas de compilación establecidas por el Fondo Monetario Internacional.
-            .row.img-c1.mb-5.justify-content-around.align-items-center 
-              .col-md-10
+                p.mb-5 En general, las estadísticas de deuda externa siguen las pautas de compilación establecidas por el Fondo Monetario Internacional.            
+              .col-md-12.mb-5
                 .cajon.color-acento-contenido.p-4.mb-4
                   p A marzo de 2021, el saldo de la deuda externa de Colombia alcanzó US$153.628 millones (m) (50,8% del PIB 1), con caída de US$977m (0,6%) respecto a diciembre de 2020.
-                  p El 86% de este saldo corresponde a créditos con vencimiento original mayor a un año y el 14% a créditos con vencimiento igual o menor a un año. Por tipo de instrumento, el saldo de la deuda externa corresponde principalmente a  préstamos y a títulos de deuda.
+                  p.mb-0 El 86% de este saldo corresponde a créditos con vencimiento original mayor a un año y el 14% a créditos con vencimiento igual o menor a un año. Por tipo de instrumento, el saldo de la deuda externa corresponde principalmente a  préstamos y a títulos de deuda.
         #3.row.p-5
           .anchorHeader
             .anchorHeader__body.justify-content-end
@@ -369,10 +364,10 @@
                   .fas.fa-chevron-up
           .row.sep5 
             .row
-              .col-4
+              .col-lg-4
                 figure.mb-5(data-aos="") 
-                    img.img-250(src='@/assets/tema1/img-28.svg')
-              .col-8
+                    img.img-250(src='@/assets/tema1/img-28.svg').m-auto
+              .col-lg-8
                 h5 Reintegro de exportaciones
                 p El régimen cambiario prohíbe que los residentes reintegren pagos de exportaciones de bienes que hayan sido realizadas por terceros; es decir, las divisas por concepto de reintegros de exportaciones de bienes deberán ser canalizadas por quien figure en los documentos aduaneros como exportador.
 
@@ -398,10 +393,10 @@
                   .fas.fa-chevron-up
           .row.sep5 
             .row
-              .col-4
+              .col-lg-4
                 figure.mb-5(data-aos="") 
-                    img.img-250(src='@/assets/tema1/img-29.svg')
-              .col-8
+                    img.img-250(src='@/assets/tema1/img-29.svg').m-auto
+              .col-lg-8.mb-4
                 h5 Reembolso de importaciones
                 p Se denomina reembolso al giro con destino al vendedor del exterior del precio pactado para el pago de lo importado. El reembolso se puede realizar a través de los intermediarios del mercado cambiario mediante la presentación de la declaración de cambio y los documentos que soportan la operación o mediante el giro por intermedio de una cuenta corriente de compensación.
 
@@ -422,7 +417,7 @@
 
 
 
-  </template>
+</template>
 
 <script>
 export default {

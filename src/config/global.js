@@ -75,12 +75,12 @@ export default {
       },
     ],
     subMenu: [
-      //{
-      //nombreRuta: 'actividad',
-      //icono: 'far fa-question-circle',
-      //titulo: 'Actividad didáctica',
-      //desarrolloContenidos: true,
-      //},
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -174,13 +174,13 @@ export default {
       texto:
         '1.4 Términos de negociación. Los INCOTERMS y la CDFI. Tecnológico Nacional de México. (s. f.). <em>Evolución del Comercio Internacional.</em>',
       tipo: 'Gráfico',
-      descarga: 'https://es.calameo.com/read/00507077164b6eb1b3771',
+      link: 'https://es.calameo.com/read/00507077164b6eb1b3771',
     },
     {
       texto:
         '1.4 Términos de negociación. Los INCOTERMS y la CDFI. Villegas, M. (2019). <em>Incoterms 2010, qué son y para qué sirven.</em> Logisber',
       tipo: 'Artículo web',
-      descarga: 'https://logisber.com/blog/incoterms-2010',
+      link: 'https://logisber.com/blog/incoterms-2010',
     },
   ],
   creditos: {
