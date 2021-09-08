@@ -12,7 +12,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 
-        p.mb-4 Apreciado aprendiz, a continuación, se encuentra la actividad didáctica denominada Las operaciones logísticas en el comercio exterior, la cual le permitirá determinar el grado  conocimiento respecto teoría y desarrollo de las operaciones logísticas.
+        p.mb-4 Apreciado aprendiz, a continuación, se encuentra la actividad didáctica denominada #[strong Las operaciones logísticas en el comercio exterior], la cual le permitirá determinar el grado  conocimiento respecto teoría y desarrollo de las operaciones logísticas.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
