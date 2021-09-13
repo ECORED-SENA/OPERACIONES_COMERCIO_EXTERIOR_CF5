@@ -11,7 +11,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 
+          h2 Las operaciones logísticas en el comercio exterior.
         p.mb-4 Apreciado aprendiz, a continuación, se encuentra la actividad didáctica denominada #[strong Las operaciones logísticas en el comercio exterior], la cual le permitirá determinar el grado  conocimiento respecto teoría y desarrollo de las operaciones logísticas.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
