@@ -111,19 +111,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Ramírez, C., García, M. y Pantoja, R. (2010). <em>Fundamentos y técnicas de costos.</em> Editorial Universidad Libre.',
+        'Ramírez, C., García, M. y Pantoja, R. (2010). <em>Fundamentos y técnicas de costos.</em> Editorial Universidad Libre.  ',
       link:
         'http://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/FUNDAMENTOS_Y_TECNICAS%20DE%20COSTO.pdf',
     },
     {
       referencia:
-        'Tecnológico Nacional de México. (s. f.).<em> Evolución del Comercio Internacional.</em>',
+        'Tecnológico Nacional de México. (s. f.).<em> Evolución del Comercio Internacional.</em>  ',
       link: 'https://es.calameo.com/read/00507077164b6eb1b3771',
     },
     {
       referencia:
-        'Villegas, M. (2019).<em> Incoterms 2010, qué son y para qué sirven.</em> Logisber.',
-      link: 'https://logisber.com/blog/incoterms-2010',
+        'Villegas, M. (2019).<em> Incoterms 2010, qué son y para qué sirven.</em> Logisber.  ',
+      link: ' https://logisber.com/blog/incoterms-2010',
     },
   ],
   glosario: [
@@ -159,7 +159,7 @@ export default {
     {
       termino: 'IVA',
       significado:
-        'IVA	Impuesto al valor agregado. Aplica para las operaciones de importación y su base es el estatuto tributario.',
+        'Impuesto al valor agregado. Aplica para las operaciones de importación y su base es el estatuto tributario.',
     },
   ],
   complementario: [
@@ -293,6 +293,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
