@@ -159,7 +159,7 @@ export default {
     {
       termino: 'IVA',
       significado:
-        'Impuesto al valor agregado. Aplica para las operaciones de importación y su base es el estatuto tributario.',
+        '(Impuesto al Valor Agregado). Aplica para las operaciones de importación y su base es el estatuto tributario.',
     },
   ],
   complementario: [
